@@ -21,8 +21,8 @@ class SearchCompleter: NSObject {
         
         // Initialize
         currentRestaurant = Restaurant(
-            name: "青山",
-            address: "港区南青山2丁目",
+            name: Constants.placeName,
+            address: Constants.placeAddress,
             coordinate: CLLocationCoordinate2D(latitude: Constants.lat, longitude: Constants.lon)
         )
     }
